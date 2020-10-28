@@ -1,3 +1,8 @@
+@import "./variables";
+@import "./join_section";
+@import "./subscribe_section";
+@import "./why_us_section";
+
 * {
   margin: 0;
   padding: 0;
@@ -10,10 +15,14 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Karla", sans-serif;
+  background-color: lightblue;
 }
 
 .container {
   width: 50rem;
   height: 35rem;
   background: lightblue;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
 }

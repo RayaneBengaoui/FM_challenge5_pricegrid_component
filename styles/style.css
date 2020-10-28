@@ -1,3 +1,18 @@
+.top-section {
+  background-color: white;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.subscribe-section {
+  background: #2ab2af;
+}
+
+.why-us-section {
+  background: #4abebd;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,11 +32,18 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: "Karla", sans-serif;
+  background-color: lightblue;
 }
 
 .container {
   width: 50rem;
   height: 35rem;
   background: lightblue;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 50% 50%;
+      grid-template-rows: 50% 50%;
 }
 /*# sourceMappingURL=style.css.map */
