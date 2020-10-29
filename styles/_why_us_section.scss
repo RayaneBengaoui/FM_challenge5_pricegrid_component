@@ -1,3 +1,16 @@
 .why-us-section {
   background: $lightCyan;
+  padding: 3rem 3rem;
+  color: white;
+
+  h2 {
+    font-size: 1.3rem;
+    padding-bottom: 1.5rem;
+  }
+
+  p {
+    width: 70%;
+    line-height: 140%;
+    color: $lightGray;
+  }
 }

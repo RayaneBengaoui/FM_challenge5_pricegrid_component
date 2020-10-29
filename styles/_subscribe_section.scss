@@ -1,3 +1,47 @@
 .subscribe-section {
   background: $cyan;
+  padding: 3rem 3rem;
+  color: $white;
+
+  h2 {
+    font-size: 1.3rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .price {
+    display: flex;
+    align-items: center;
+
+    h3 {
+      color: $white;
+      font-size: 2.5rem;
+    }
+
+    h4 {
+      color: rgb(191, 194, 214);
+      padding-left: 1rem;
+      font-size: 1.1rem;
+      font-weight: lighter;
+    }
+  }
+
+  p {
+    padding-top: 0.3rem;
+    font-size: 1.1rem;
+    word-spacing: 0.2rem;
+  }
+
+  button {
+    margin-top: 2rem;
+    width: 95%;
+    background: $brightYellow;
+    border: none;
+    padding: 1rem;
+    border-radius: 8px;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+  }
 }

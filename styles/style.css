@@ -3,14 +3,96 @@
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 3;
+  padding: 3rem 3rem;
+}
+
+.top-section h1 {
+  color: #2ab2af;
+  padding-bottom: 2rem;
+  font-size: 1.7rem;
+}
+
+.top-section h2 {
+  color: #c0df34;
+  padding-bottom: 0.78rem;
+  font-size: 1.3rem;
+}
+
+.top-section p {
+  color: #98a6bd;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  word-spacing: 0.2rem;
 }
 
 .subscribe-section {
   background: #2ab2af;
+  padding: 3rem 3rem;
+  color: white;
+}
+
+.subscribe-section h2 {
+  font-size: 1.3rem;
+  padding-bottom: 1.5rem;
+}
+
+.subscribe-section .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subscribe-section .price h3 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.subscribe-section .price h4 {
+  color: #bfc2d6;
+  padding-left: 1rem;
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+
+.subscribe-section p {
+  padding-top: 0.3rem;
+  font-size: 1.1rem;
+  word-spacing: 0.2rem;
+}
+
+.subscribe-section button {
+  margin-top: 2rem;
+  width: 95%;
+  background: #c0df34;
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  color: white;
+  font-weight: bolder;
+  font-size: 1rem;
+  cursor: pointer;
+  -webkit-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
 }
 
 .why-us-section {
   background: #4abebd;
+  padding: 3rem 3rem;
+  color: white;
+}
+
+.why-us-section h2 {
+  font-size: 1.3rem;
+  padding-bottom: 1.5rem;
+}
+
+.why-us-section p {
+  width: 70%;
+  line-height: 140%;
+  color: #e5eff5;
 }
 
 * {
@@ -32,7 +114,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: "Karla", sans-serif;
-  background-color: lightblue;
+  background-color: #d7ebf1;
 }
 
 .container {
@@ -43,7 +125,11 @@ body {
   display: grid;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
-  -ms-grid-rows: 50% 50%;
-      grid-template-rows: 50% 50%;
+  -ms-grid-rows: 45% 55%;
+      grid-template-rows: 45% 55%;
+  -webkit-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */

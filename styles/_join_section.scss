@@ -2,4 +2,24 @@
   background-color: $white;
   grid-column-start: 1;
   grid-column-end: 3;
+  padding: 3rem 3rem;
+
+  h1 {
+    color: $cyan;
+    padding-bottom: 2rem;
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    color: $brightYellow;
+    padding-bottom: 0.78rem;
+    font-size: 1.3rem;
+  }
+
+  p {
+    color: $grayishBlue;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    word-spacing: 0.2rem;
+  }
 }
