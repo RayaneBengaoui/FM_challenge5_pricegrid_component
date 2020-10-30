@@ -21,11 +21,66 @@ body {
 .container {
   width: 50rem;
   height: 35rem;
-  background: lightblue;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 45% 55%;
   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   overflow: hidden;
+}
+
+@media screen and (max-width: 760px) {
+  body {
+    display: initial;
+    height: 100vh;
+  }
+  .container {
+    width: inherit;
+    height: inherit;
+
+    grid-template-columns: 100%;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    box-shadow: none;
+    border-radius: 0px;
+
+    .top-section {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      padding: 2rem 2rem;
+
+      h1 {
+        padding-bottom: 2rem;
+        font-size: 1.5rem;
+      }
+
+      h2 {
+        padding-bottom: 1.4rem;
+        font-size: 1.2rem;
+      }
+
+      p {
+        font-size: 0.8rem;
+
+        word-spacing: 0rem;
+      }
+    }
+
+    .subscribe-section {
+      padding: 2rem 2rem;
+
+      p {
+        font-size: 1rem;
+        word-spacing: 0rem;
+      }
+
+      button {
+        margin-top: 2rem;
+        width: 18rem;
+      }
+    }
+
+    .why-us-section {
+      padding: 2rem 2rem;
+    }
+  }
 }

@@ -120,7 +120,6 @@ body {
 .container {
   width: 50rem;
   height: 35rem;
-  background: lightblue;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
@@ -131,5 +130,55 @@ body {
           box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   overflow: hidden;
+}
+
+@media screen and (max-width: 760px) {
+  body {
+    display: initial;
+    height: 100vh;
+  }
+  .container {
+    width: inherit;
+    height: inherit;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 33.3% 33.3% 33.3%;
+        grid-template-rows: 33.3% 33.3% 33.3%;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border-radius: 0px;
+  }
+  .container .top-section {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 2rem 2rem;
+  }
+  .container .top-section h1 {
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+  .container .top-section h2 {
+    padding-bottom: 1.4rem;
+    font-size: 1.2rem;
+  }
+  .container .top-section p {
+    font-size: 0.8rem;
+    word-spacing: 0rem;
+  }
+  .container .subscribe-section {
+    padding: 2rem 2rem;
+  }
+  .container .subscribe-section p {
+    font-size: 1rem;
+    word-spacing: 0rem;
+  }
+  .container .subscribe-section button {
+    margin-top: 2rem;
+    width: 18rem;
+  }
+  .container .why-us-section {
+    padding: 2rem 2rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
